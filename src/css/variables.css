@@ -1,0 +1,12 @@
+:root {
+    --primary-background-color: hsl(30, 54%, 90%);
+    --secondary-background-color : hsl(0, 0%, 100%);
+
+    --primary-title-color: hsl(24, 5%, 18%);
+    --primary-paragraph-color: hsl(30, 10%, 34%);
+    --primary-subtitle-color: hsl(14, 45%, 36%);
+    --secondary-subtitle-color: hsl(332, 51%, 32%);
+
+    --primary-text-box-color: hsl(330, 100%, 98%);
+    --primary-division-line-color: hsl(30, 18%, 87%);
+}

@@ -1,0 +1,77 @@
+html {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Young Serif", serif;
+}
+
+.container {
+    width: 40%;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.container .omelette-photo{
+    border-radius: 25px;
+}
+
+.container .recipe-title {
+    font-size: 36px;
+    margin: 15px 0;
+    font-weight: 700;
+}
+
+.container .prep-time-section {
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.container .prep-time-section .prep-time-title,
+.container .procedure-title,
+.container .nutrition-section .nutrition-description {
+    padding-bottom: 10px;
+}
+
+.container .prep-time-section ul {
+    margin-left: 20px; 
+}
+
+.container .prep-time-section ul li {
+    padding: 5px;
+}
+
+.container .prep-time-section .subtitle,
+.container .instructions-section .straight-instruction,
+.container .nutrition-section .nutrition-table .nutrition-value {
+    font-weight: 600;
+}
+
+.container .ingredients-section,
+.container .instructions-section {
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+
+.container .ingredients-section ul li {
+    padding: 5px 25px;
+    margin-left: 25px;
+}
+
+.container .instructions-section ol li {
+    padding: 5px 10px;
+    margin-left: 25px;
+}
+
+.container .nutrition-section .nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container .nutrition-section .nutrition-table tbody .nutrition-name:last-child {
+    border: none;
+}
+
+.container .nutrition-section .nutrition-table tbody td {
+    padding: 10px 30px;
+}

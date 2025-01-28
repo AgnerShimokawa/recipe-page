@@ -1,0 +1,44 @@
+html {
+    background-color: var(--primary-background-color);
+}
+
+.container {
+    background-color: var(--secondary-background-color);
+}
+
+.container .recipe-title {
+    color: var(--primary-title-color);
+}
+
+.container .recipe-description,
+.container .prep-time-section ul li,
+.container .prep-time-section .subtitle,
+.container .instructions-section .straight-instruction,
+.container .ingredients-section ul li,
+.container .instructions-section ol li,
+.container .nutrition-section .nutrition-description,
+.container .nutrition-section .nutrition-table tbody .nutrition-name {
+    color: var(--primary-paragraph-color);
+}
+
+.container .prep-time-section {
+    background-color: var(--primary-text-box-color);
+}
+
+.container .ingredients-section ul li::marker,
+.container .instructions-section ol li::marker,
+.container .procedure-title,
+.container .nutrition-section .nutrition-table .nutrition-value {
+    color: var(--primary-subtitle-color);
+}
+
+.container .prep-time-section .prep-time-title,
+.container .prep-time-section ul li::marker {
+    color: var(--secondary-subtitle-color);
+}
+
+.container .ingredients-section,
+.container .instructions-section,
+.container .nutrition-section .nutrition-table tbody .nutrition-name {
+    border-bottom: 1px solid var(--primary-division-line-color);
+}
